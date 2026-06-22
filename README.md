@@ -97,3 +97,57 @@ Follow the instructions in `INSTALLATION.md`
 - ✅ Works in any lighting condition
 
 ## File Structure 📁
+
+```
+obstacle-avoiding-car/
+├── README.md                           # This file
+├── INSTALLATION.md                     # Library installation guide
+├── WIRING.md                          # Detailed wiring connections
+├── code/
+│   └── ARDUINO_OBSTACLE_AVOIDING_CAR.ino
+└── circuit/
+    └── circuit_diagram.jpg            # Circuit diagram image
+```
+
+## Troubleshooting 🔧
+
+### Car doesn't move
+- Check battery voltage (should be 9V+)
+- Verify motor connections
+- Check if all motors have power
+
+### Sensor doesn't detect obstacles
+- Verify A0 and A1 connections
+- Check sensor orientation (facing forward)
+- Test sensor with multimeter
+
+### Servo doesn't rotate
+- Check Pin 10 connection
+- Verify servo power supply
+- Calibrate servo in code if needed
+
+### Code won't upload
+- Install all required libraries
+- Select correct board and port
+- Check USB cable connection
+
+## Future Enhancements 🚀
+
+- [ ] Add LED indicators
+- [ ] Add buzzer for alerts
+- [ ] Bluetooth remote control
+- [ ] Speed adjustment
+- [ ] Line following capability
+- [ ] Object size detection
+
+## Author 👨‍💻
+**logyaser-max**
+
+## License 📄
+This project is open source and free to use for educational purposes.
+
+---
+
+**Enjoy building and customizing your obstacle avoiding car! 🎉**
+
+For questions or improvements, feel free to open an issue or submit a pull request!
