@@ -15,7 +15,7 @@ A smart car that uses an Ultrasonic Sensor to detect obstacles and avoid them au
 - **Wheels & Chassis** - Frame and wheels
 
 ## Circuit Diagram 📐
-![Obstacle Avoiding Car Circuit](https://github.com/logyaser-max/obstacle-avoiding-car/raw/main/circuit/circuit_diagram.jpg)
+![Obstacle Avoiding Car Circuit](https://cdn.corenexis.com/f/v2UiPsSxMh3.png)
 
 The circuit diagram above shows all the connections:
 - **Servo Motor** - Controls the direction of the ultrasonic sensor
